@@ -6,8 +6,8 @@ const Navbar = () => {
     <nav>
       <Link to='/'>
         <p className='nav-title'>
-          <span className='nav-title-icon'>⚛️</span>
-          React Starter Template
+          <span className='nav-title-icon'>💠</span>
+          CryptoHub
         </p>
       </Link>
       <div className='nav-links'>

@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Error from './components/Error'
-import Home from './components/Home'
+import CryptoFaqs from './components/CryptoFaqs'
 import About from './components/About'
 
 const App = () => {
@@ -13,7 +13,7 @@ const App = () => {
         <div className='container'>
           <Switch>
             <Route exact path='/'>
-              <Home />
+              <CryptoFaqs />
             </Route>
             <Route path='/about'>
               <About />
