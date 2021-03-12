@@ -39,7 +39,7 @@ export default [
     id: 7,
     question: 'What are Dapps?',
     answer:
-      'A decentralized application (DApp,[1] dApp,[2] Dapp, or dapp) is a computer application that runs on a distributed computing system. Dapps have been popularized by distributed ledger technologies (DLT) such as the Ethereum Blockchain,[3] where DApps are often referred to as smart contracts.',
+      'A decentralized application (DApp, dApp, Dapp, or dapp) is a computer application that runs on a distributed computing system. Dapps have been popularized by distributed ledger technologies (DLT) such as the Ethereum Blockchain, where Dapps are often referred to as smart contracts.',
   },
   {
     id: 8,
