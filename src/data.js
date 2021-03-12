@@ -39,7 +39,7 @@ export default [
     id: 7,
     question: 'What are Dapps?',
     answer:
-      'DeFi takes the basic premise of Bitcoin — digital money — and expands on it, creating an entire digital alternative to Wall Street, but without all the associated costs (think office towers, trading floors, banker salaries). This has the potential to create more open, free, and fair financial markets that are accessible to anyone with an internet connection.',
+      'A decentralized application (DApp,[1] dApp,[2] Dapp, or dapp) is a computer application that runs on a distributed computing system. Dapps have been popularized by distributed ledger technologies (DLT) such as the Ethereum Blockchain,[3] where DApps are often referred to as smart contracts.',
   },
   {
     id: 8,
