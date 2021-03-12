@@ -217,6 +217,7 @@ main {
   margin-bottom: 40px;
   padding: 50px;
   background: var(--clr-white);
+  border-radius: 8px;
 }
 
 header {
@@ -242,10 +243,8 @@ header {
 }
 
 .question-icon-btn {
-  /* background: var(--clr-grey-9); */
   padding: 9px 12px;
   border-radius: 100%;
-  /* place-content: center; */
   margin: 0;
 }
 
@@ -254,7 +253,7 @@ header {
   box-shadow: var(--light-shadow);
   padding: 20px;
   margin: 20px 0;
-  border: 3px solid var(--clr-grey-9);
+  border: 2px solid rgb(231, 231, 231);
   border-radius: 6px;
 }
 

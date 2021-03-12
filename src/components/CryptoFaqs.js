@@ -1,15 +1,15 @@
 import React, { useState } from 'react'
 import data from '../data.js'
-import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai'
+import FaqItem from './FaqItem'
 
 const CryptoFaqs = () => {
-  const [index, setIndex] = useState(null)
+  const [activeIndex, setActiveIndex] = useState(null)
 
-  const handleClick = (i) => {
-    if (index === i) {
-      setIndex(null)
+  const handleClick = (index) => {
+    if (activeIndex === index) {
+      setActiveIndex(null)
     } else {
-      setIndex(i)
+      setActiveIndex(index)
     }
   }
 
@@ -20,23 +20,14 @@ const CryptoFaqs = () => {
           <h3>Crypto FAQs</h3>
         </header>
         <section className='faq-list'>
-          {data.map((item, i) => {
-            // console.log(item)
-            return (
-              <article className='faq-item' key={item.id}>
-                <div className='question-section'>
-                  <h4>{item.question}</h4>
-                  <button
-                    className='btn question-icon-btn'
-                    onClick={() => handleClick(i)}
-                  >
-                    {index === i ? <AiOutlineMinus /> : <AiOutlinePlus />}
-                  </button>
-                </div>
-                {index === i && <p className='answer-section'>{item.answer}</p>}
-              </article>
-            )
-          })}
+          {data.map((item, index) => (
+            <FaqItem
+              item={item}
+              index={index}
+              handleClick={handleClick}
+              activeIndex={activeIndex}
+            />
+          ))}
         </section>
       </main>
     </>
